@@ -11,14 +11,16 @@
   width: 100%;
   padding: 0 23px;
 }
-
+.active {
+  font-weight: 900;
+}
 a {
   text-decoration: none;
 }
 a:hover {
   color: #d87d4a;
 }
-hero__item-list-title:hover{
+hero__item-list-title:hover {
   color: #fff;
 }
 

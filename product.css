@@ -18,6 +18,9 @@ a {
 a:hover {
   color: #d87d4a;
 }
+.active {
+  font-weight: 900;
+}
 ul {
   list-style: none;
 }
