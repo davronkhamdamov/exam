@@ -620,4 +620,38 @@ footer {
   .catergory-padding {
     margin: 0 auto;
   }
+  
+  .footer {
+    height: 300px;
+  }
+  .footer img {
+    margin: 0 auto;
+  }
+  .footer::after {
+    left: 35%;
+  }
+  .footer__link {
+    width: 100%;
+    align-items: center;
+    flex-direction: column;
+  }
+  .footer__link-item {
+    font-size: 13px;
+  }
+  .footer__link li {
+    margin: 5px;
+  }
+  
+  .footer-text {
+    text-align: center;
+    font-size: 15px;
+  }
+  .laptop-footer {
+    flex-direction: column;
+  }
+  .footer-end {
+    font-size: 13px;
+  }
+  
+  
 }
