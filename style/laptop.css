@@ -1,0 +1,217 @@
+@media (max-width: 768px) {
+  .container {
+    max-width: 698px;
+    margin: 0 auto;
+  }
+  .navbar {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  .hero {
+    background-position: center;
+  }
+  .fixed {
+    width: 100%;
+    padding: 0 23px;
+  }
+  .hero__item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .fixed-container {
+    margin: 0 auto;
+    padding: 0;
+  }
+  .navbar__item-link {
+    display: none;
+  }
+  .category__item-img {
+    width: 120px;
+    left: 35px;
+    bottom: 90px;
+  }
+  .laptop-text {
+    margin-top: 20px;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  .speakers {
+    max-width: 700px;
+    background-image: url(../image/bgc.png);
+    background-position: 0 -120px;
+    background-size: contain;
+  }
+  .speakers-item {
+    flex-direction: column;
+  }
+  .speakers-item img {
+    height: 237px;
+    width: 190px;
+  }
+  .speakers__item-title {
+    line-height: 40px;
+    width: 258px;
+    text-align: center;
+  }
+  .speakers__item-text {
+    width: 199px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  .product {
+    background: url('../image/laptop-speakers.png');
+  }
+  .earphone-img {
+    height: 325px;
+  }
+  .gear__item {
+    flex-direction: column-reverse;
+    text-align: center;
+  }
+  .gear__item-list-title .gear__item-list-text {
+    width: 573px;
+  }
+  .gear-img {
+    display: none;
+  }
+  .laptop-bottom {
+    width: 100%;
+    display: block;
+    margin-bottom: 63px;
+  }
+  footer {
+    height: 100%;
+  }
+  .footer {
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+  }
+  .footer__link {
+    width: 60%;
+    margin-top: 20px;
+  }
+  .footer-text {
+    width: 100%;
+  }
+  .social-media {
+    display: none;
+  }
+  .laptop-footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .social-media1 {
+    display: flex;
+    align-items: center;
+  }
+}
+@media (max-width: 375px) {
+  .container {
+    max-width: 327px;
+  }
+  .hero__item-list-heading {
+    width: 328px;
+  }
+  .category__item {
+    flex-direction: column;
+  }
+  .category__item-list-bgc {
+    width: 290px;
+    height: 165px;
+    align-items: center;
+    margin-top: 68px;
+  }
+  .category__item-img {
+    position: absolute;
+    width: 80px;
+    left: 100px;
+    bottom: 100px;
+  }
+  .speakers__item-link {
+    font-size: 11px;
+  }
+  .category__item-list {
+    width: 307px;
+  }
+  .product {
+    padding: 100px 40px;
+    background: url(../image/Bitmap1.png);
+    background-size: contain;
+  }
+  .earphone {
+    flex-direction: column;
+  }
+  .earphone-img {
+    height: 80%;
+    width: 100%;
+    margin-bottom: 24px;
+  }
+  .center {
+    margin: 0;
+    width: 100%;
+  }
+  .earphone-item {
+    width: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 200px;
+  }
+  .product__item-link {
+    max-width: max-content;
+  }
+  .product__item-title {
+    margin: 10px 0;
+  }
+  .laptop-bottom {
+    display: none;
+  }
+  .gear-img {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 20px;
+  }
+  .gear__item-list-text {
+    font-size: 15px;
+  }
+  .footer {
+    height: 300px;
+  }
+  .footer img {
+    margin: 0 auto;
+  }
+  .footer::after {
+    left: 35%;
+  }
+  .footer__link {
+    width: 100%;
+    align-items: center;
+    flex-direction: column;
+  }
+  .footer__link-item {
+    font-size: 13px;
+  }
+  .footer__link li {
+    margin: 5px;
+  }
+
+  .footer-text {
+    text-align: center;
+    font-size: 15px;
+  }
+  .laptop-footer {
+    flex-direction: column;
+  }
+  .footer-end {
+    font-size: 13px;
+  }
+}

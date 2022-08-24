@@ -1,0 +1,355 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@600;700&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1123px;
+  margin: 0 auto;
+  width: 100%;
+  padding: 0 23px;
+}
+
+a {
+  text-decoration: none;
+}
+a:hover {
+  color: #d87d4a;
+}
+hero__item-list-title:hover{
+  color: #fff;
+}
+
+ul {
+  list-style: none;
+}
+
+/* normalize style */
+
+/* hero section start */
+.hero {
+  padding-top: 230px;
+  height: 729px;
+  width: 100%;
+  background: #131313;
+  background-image: url(../image/hero.png);
+  background-repeat: no-repeat;
+  background-position-x: right;
+}
+
+.hero__item-list-title {
+  font-family: 'Manrope';
+  font-weight: 400;
+  font-size: clamp(7px, 23vw, 14px);
+  line-height: 19px;
+  letter-spacing: 10px;
+  text-transform: uppercase;
+  opacity: 0.5;
+  margin-bottom: 24px;
+  color: #ffffff;
+  z-index: 22;
+}
+.hero__item-list-heading {
+  width: 396px;
+  font-family: 'Manrope';
+  font-weight: 700;
+  font-size: clamp(40px, 5vw, 56px);
+  line-height: 58px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  margin-bottom: 24px;
+  color: #ffffff;
+}
+.hero__item-list-text {
+  width: 349px;
+  font-family: 'Manrope';
+  font-weight: 500;
+  font-size: clamp(7px, 23vw, 14px);
+  line-height: 25px;
+  opacity: 0.75;
+  margin-bottom: 40px;
+  color: #ffffff;
+}
+.hero__item-list-link {
+  font-family: 'Manrope';
+  font-weight: 700;
+  font-size: clamp(7px, 23vw, 14px);
+  line-height: 18px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #ffffff;
+  background: #d87d4a;
+  padding: 15px 30px;
+  max-width: max-content;
+}
+/* hero section end */
+
+/* category section start */
+.catergory-padding {
+  padding: 250px 0;
+}
+.category__item {
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+}
+.category__item-list-bgc {
+  width: 100%;
+  height: 204px;
+  border-radius: 8px;
+  background-color: #f1f1f1;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  padding-bottom: 20px;
+}
+.category__item-list {
+  width: 500px;
+  position: relative;
+  margin-right: 20px;
+}
+.category__item-item-title {
+  font-weight: 700;
+  font-size: clamp(0.5rem, 2vw, 18px);
+  line-height: 25px;
+  letter-spacing: 1.28571px;
+  text-transform: uppercase;
+  color: #000000;
+  margin: 15px 0;
+}
+.category__item-img {
+  position: absolute;
+  left: 30%;
+  bottom: 67%;
+}
+.catergory__item-link img {
+  margin: 0 10px;
+}
+/* category section end */
+/* speakers section start */
+.speakers {
+  width: 100%;
+  height: auto;
+  background: #d87d4a;
+  border-radius: 8px;
+  background-repeat: no-repeat;
+  background-image: url(../image/Group\ 4.png);
+  margin-bottom: 80px;
+  padding-top: 100px;
+}
+.speakers-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.speakers__item-title {
+  width: 261px;
+  font-family: 'Manrope';
+  font-weight: 700;
+  font-size: clamp(2rem, 5vw, 9rem);
+  line-height: 73px;
+  letter-spacing: 2px;
+  color: #ffffff;
+  text-transform: uppercase;
+  margin-bottom: 24px;
+}
+.speakers__item-text {
+  width: 349px;
+  font-family: 'Manrope';
+  font-weight: 500;
+  font-size: clamp(0.8rem, 1vw, 2rem);
+  line-height: 25px;
+  color: #ffffff;
+  opacity: 0.75;
+  margin-bottom: 40px;
+}
+
+.speakers__item-link {
+  font-family: 'Manrope';
+  font-weight: 700;
+  font-size: clamp(0.3rem, 1vw, 1rem);
+  line-height: 18px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #ffffff;
+  background: #000;
+  padding: 15px 30px;
+}
+/* speakers section end */
+/* product section start */
+
+.product {
+  width: 100%;
+  height: 320px;
+  border-radius: 10px;
+  background-repeat: no-repeat;
+  background-image: url(../image/z7xspeakers.png);
+  margin-bottom: 80px;
+  padding-top: 100px;
+  padding-left: 95px;
+}
+.product__item-title {
+  font-family: 'Manrope';
+  font-weight: 700;
+  line-height: 38px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #000000;
+  margin-bottom: 32px;
+  font-size: clamp(0.2rem, 4vw, 26px);
+}
+.product__item-link {
+  font-family: 'Manrope';
+  font-weight: 700;
+  font-size: clamp(0.2rem, 2vw, 1rem);
+
+  line-height: 18px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #fff;
+  border: 2px solid #000;
+  background-color: #000;
+  padding: 15px 30px;
+}
+/* product section end */
+/* eadphone section start */
+
+.earphone {
+  width: 100%;
+  display: flex;
+  padding-bottom: 80px;
+}
+.earphone-img {
+  width: 50%;
+  height: 100%;
+  border-radius: 8px;
+}
+.center {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background: #f1f1f1;
+  margin-left: 30px;
+  border-radius: 8px;
+  padding-left: 5%;
+}
+/* eadphone section end */
+/* gear seciton start */
+.gear {
+  padding: 100px 0;
+}
+.gear__item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.gear__item-list-title {
+  max-width: 445px;
+  font-family: 'Manrope';
+  font-weight: 700;
+  font-size: clamp(30px, 4vw, 50px);
+  line-height: 55px;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  color: #000000;
+}
+.laptop-bottom {
+  display: none;
+}
+.gear-img {
+  width: 86%;
+  height: 50%;
+  margin-left: 70px;
+  border-radius: 8px;
+}
+span {
+  color: #d87d4a;
+}
+.gear__item-list-text {
+  max-width: 445px;
+  width: 100%;
+  font-family: 'Manrope';
+  font-weight: 500;
+  font-size: clamp(0.6rem, 2vw, 0.8rem);
+  line-height: 25px;
+  color: #000000;
+  opacity: 0.5;
+  margin-top: 32px;
+}
+/* gear seciton end */
+/* footer start */
+footer {
+  height: 365px;
+  background: #101010;
+}
+.position {
+  position: relative;
+}
+.footer::after {
+  content: '';
+  width: 100px;
+  height: 4px;
+  position: absolute;
+  top: 0;
+  left: 23px;
+  background: #d87d4a;
+}
+.footer {
+  width: 100%;
+  height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.footer__link {
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+}
+.footer__link-item {
+  font-family: 'Manrope';
+  font-weight: 700;
+  font-size: clamp(0.5rem, 1vw, 2rem);
+  line-height: 25px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.footer-about {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin-bottom: 56px;
+}
+.social-media {
+  display: flex;
+}
+.twitter {
+  margin: 20px;
+}
+.footer-text {
+  width: 50%;
+  font-family: 'Manrope';
+  font-weight: 500;
+  font-size: clamp(0.5rem, 2vw, 16px);
+  line-height: 25px;
+  color: #ffffff;
+  opacity: 0.5;
+}
+.footer-end {
+  font-family: 'Manrope';
+  font-weight: 700;
+  font-size: clamp(0.5rem, 2vw, 16px);
+
+  line-height: 25px;
+  color: #ffffff;
+  opacity: 0.5;
+}
+.social-media1 {
+  display: none;
+}
+/* footer end */
